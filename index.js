@@ -1,3 +1,5 @@
+window.addEventListener("load",function(){
+alert("Drag your pointer and see the magic");
 let canvas = document.getElementById("canvas");
 let ctx = canvas.getContext("2d");
 let CANVAS_WIDTH = (canvas.width = window.innerWidth);
@@ -89,3 +91,5 @@ function animate() {
 }
 
 animate();
+
+});
